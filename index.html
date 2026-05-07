@@ -3,9 +3,12 @@
 <head>
     <title>My Video Site</title>
 <style>
+body,html{
+min-height: 100vh;
+}
 h1,h6{
 text-align: center;
-color: darkred;
+color: cyan;
 }
 p{
 text-align: center;
@@ -14,22 +17,24 @@ body{
 background: url(file_00000000ef287207a97c7c6ef0973bf5.png);
 background-size: cover;
 background-repeat: no-repeat;
-background-position: auto;
+background-position: center;
+background-attachment: fixed;
+border-radius: 2%;
 }
 video{
 border-radius: 10%;
 width: auto;
-height: auto;
+height: 540px;
 }
 </style>
 </head>
 <body>
     <h1>  WELCOME </h1> <br>
-    <h6> Go on view the video :)</h6>
+    <h6> Go on view the video :) </h6>
     <p><video controls>
         <source src="InShot_20260506_233610078.mp4" type="video/mp4">
-        Moooo.So sad ,your browser is old ,canot load video.
+        Moooo. So sad ,your browser is old ,cannot load video.
     </video> </p>
-    <h6>Edit Vid, Experiment</h6> <br>
+    <h6> Edit Vid, Experiment. </h6> <br>
 </body>
 </html>
