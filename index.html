@@ -1,61 +1,73 @@
-<!DOCTYPE html>
+<!doctype>
 <html>
 <head>
-    <title>My Video Site</title>
+	<title> My document </title>
 <style>
-html{
-scroll-behaviour: smooth;
-}
-body,html{
-min-height: 100vh;
-}
-h1,h6{
-text-align: center;
-}
-h1{
-font-size: 64px;
-text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-}
-h6 {
-color: white;
-font-size: 14px;
-text-shadow: 2px 2px 4px black;
+body{
+background: url(img/hi.jpg);
 }
 p{
 text-align: center;
 }
-body{
-background: url(file_00000000ef287207a97c7c6ef0973bf5.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: scroll;
-border-radius: 4%;
+h1,h5{
+text-align: center;
+color: darkred;
 }
-video{
-border-radius: 10%;
-width: auto;
-height: 540px;
-box-shadow: 0 10px 15px rgba(0,0,0,0.2);
-transition: transform 0.1s ease;
+.btn-img{
+border-radius: 50%;
+border: 2px solid darkred;
 }
-video:hover {
-transform: scale(1.03);
+table{
+margin: auto;
+box-shadow: 2px 2px 8px black;
+border-collapse: collapse;
+border: 2pt solid black;
 }
-video:active {
-transform: scale(0.97);
+td, th{
+border: 2pt solid black;
+text-align: center;
+padding: 4px;
+background-color: rgba(0,0,0,0.1) 
+}
+th:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+td:hover{
+background-color: rgba(255, 0, 0, 0.12)
+}
+.btn-img {
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.btn-img:hover {
+  transform: scale(1.05);
+}
+
+.btn-img:active {
+  transform: scale(0.95);
 }
 </style>
 </head>
 <body>
-    <h1>WELCOME🙂 </h1> <br>
-    <h6> Go on view the video :) </h6>
-    <p><video controls>
-        <source src="InShot_20260506_233610078.mp4" type="video/mp4">
-        Moooo. So sad ,your browser is old ,cannot load video.
-    </video> </p>
-    <h6>
-    <span style="font-size:20px;">🎥</span> Filmed with InShot</h6>
-    <p style="font-size:12px; color:white; text-shadow:2px 2px 4px black;">🙂Thanks for watching!😊</p> <br>
+	<p style="font-size: 25pt;"> <a href="DNO.html"		target="_blank"
+<h1> <u> Links Experiment </u> </h1>
+	</a> </p> <br>
+	<h5> Click the IMAGE below!!!!!! </h5>
+	<p> <a href="Classwork 11.html" target="_blank"> <img 	src="img/im.jpg" class="btn-img" height="190px" 		width="260px">  </a>
+	<!-- RELATIVE URL --> </p>
+	<br>
+
+<table width="25%">
+	<caption> Info. about the Creator (XD) </caption>
+	<tr>
+		<th> NAME </th>
+		<th> COURSE </th>
+	</tr>
+	<tr>
+		<td><a href="About Me.html" target="_blank"> 		VIKASHE </a></td>
+		<td> DCA </td>
+	</tr>
+</table>
 </body>
 </html>
